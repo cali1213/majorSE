@@ -12,6 +12,9 @@ public class GrowthScript : MonoBehaviour
      void Update() 
 
     {
+        if (transform.position.y <= 1.5); 
+    
     }
+    
 
 } 
