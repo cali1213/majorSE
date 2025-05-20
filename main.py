@@ -1,5 +1,7 @@
 import numpy as np 
 import random 
+
+#Maybe make this a class instead of a def function and use self, name.
 def sunflower_health(rain_level, nutrient_heath,winds, atmposphere, uv_level, cloud_level, soil_quality, ph_balance, organic_content, temperatre, fertilizer):
   soil_quality = 80 
   nutrient_health = 70 
@@ -10,7 +12,7 @@ def sunflower_health(rain_level, nutrient_heath,winds, atmposphere, uv_level, cl
   uv_level = 8
   soil_quality = 60/100
 
-  def temp(temperature):
+  def temp(temperature): #when in unity engine do this with the unity object code 
     min_value = 9
     max_value = 37 
     temperature = np.arrange(min_value, max_value + 1) 
