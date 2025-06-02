@@ -11,6 +11,7 @@ def sunflower_health(rain_level, nutrient_heath,winds, atmposphere, uv_level, cl
   nutrient_health = 90
   uv_level = 8
   soil_quality = 60/100
+  #FIGURE OUT how to properly impliment 
 
   def temp(temperature): #when in unity engine do this with the unity object code 
     min_value = 9
